@@ -5,3 +5,24 @@
     object-fit: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
 }
+
+.skills-modal{
+    top: 15%;
+    left: 25%;
+    width:50%;
+    height:fit-content;
+    border: 1px solid #ccc;
+    background-color: #f3f3f3;
+    position:fixed;
+    padding: 10px;
+}
+
+.skills-modal p{
+    margin: 0 15% 5% 15%;
+}
+
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
