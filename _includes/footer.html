@@ -3,15 +3,9 @@
   <div class="footer-above">
     <div class="container">
       <div class="row">
-        <div class="footer-col col-md-4">
-          <h3>{{ site.footer.location }}</h3>
-          <p>
-            {% for adress in site.address %}
-            {{ adress.line }} <br>
-            {% endfor %}
-          </p>
+        <div class="footer-col col-md-2">
         </div>
-        <div class="footer-col col-md-4">
+        <div class="footer-col col-md-8">
           <h3>{{ site.footer.social }}</h3>
           <ul class="list-inline">
             {% for network in site.social %}
@@ -22,9 +16,7 @@
             {% endfor %}
           </ul>
         </div>
-        <div class="footer-col col-md-4">
-          <h3>{{ site.footer.credits }}</h3>
-          <p>{{ site.credits }}</p>
+        <div class="footer-col col-md-2">
         </div>
       </div>
     </div>
