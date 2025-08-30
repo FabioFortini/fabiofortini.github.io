@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 2
+img: speaker.jpg
+alt: image-alt
+client: Start Bootstrap
+category: Web Development
+description:
+---
+Quando la conoscenza viene condivisa si ha davvero l'opportunità di crescere.
+Le conferenze a cui partecipo ne sono la dimostrazione:
+non importa se come speaker o partecipante, ho sempre trovato stimolante partecipare a questi eventi.
+E poi... presentare è sempre un'ottima occasione per imparare qualcosa di nuovo!
